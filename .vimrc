@@ -4,6 +4,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+set mouse=a
+set paste
 set ruler
 
 filetype plugin indent on
