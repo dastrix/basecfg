@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #coursera-dl -u mikhail.lvovitch@gmail.com -p tranzit -d ~/downloads/coursera/ algo2-2012-001
 #sudo chmod -R 777 ~/downloads/coursera/algo2-2012-001
 #course_list='algo-003 composition-001 algo2-2012-001 algs4partI-002'
@@ -15,11 +15,13 @@ do
 done
 
 # gamification-002 interactivepython-002 calcsing-002
-course_list='crypto-008'
+course_list='lifenutr-002'
 coursera_base_dir=~/downloads/coursera/
 
-coursera_user_email=some@email.com
-coursera_user_password=passwd
+#coursera_user_email=some@email.com
+#coursera_user_password=passwd
+
+source get_courses_cfg.sh
 
 echo "Downloading: \t$do_download."
 echo "Syncing: \t$do_rsync."
@@ -29,8 +31,14 @@ if [ $do_download = 'on' ] ; then
 	for course in $course_list ; do
 		echo; echo;
 		echo =================  Processing $course ====================;
+        if [[ -d "${coursera_base_dir}" && ! -L "${coursera_base_dir}" ]] ; then
+            echo "make dir '$coursera_base_dir'"
+            mkdir $coursera_base_dir
+        fi
+
+		echo -u $coursera_user_email -p $coursera_user_password -d $coursera_base_dir $course
 		coursera-dl -u $coursera_user_email -p $coursera_user_password -d $coursera_base_dir $course
-		sudo chmod -R 777 ~/downloads/coursera/$course
+		sudo chmod -R 777 $coursera_base_dir/$course
 	done
 fi;
 

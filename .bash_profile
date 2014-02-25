@@ -15,7 +15,7 @@ alias gdiff='git diff '
 alias gdi='git diff '
 alias gst='git status '
 
-alias cdb='cd ~/badoo '
+alias du1='du -h --max-depth=1 | sort -hr '
 
 # вывод текущей ветки в приглашении bash
 # https://wiki..com/display/SOFTDEV/GIT+workflow#GITworkflow-Началоработы
