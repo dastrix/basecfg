@@ -14,6 +14,7 @@ alias gg='ggrep '
 alias gdiff='git diff '
 alias gdi='git diff '
 alias gst='git status '
+alias gci='git commit '
 
 alias du1='du -h --max-depth=1 | sort -hr '
 
