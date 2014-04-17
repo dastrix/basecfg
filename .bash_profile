@@ -15,6 +15,7 @@ alias gdiff='git diff '
 alias gdi='git diff '
 alias gst='git status '
 alias gci='git commit '
+alias gch='git checkout '
 
 alias du1='du -h --max-depth=1 | sort -hr '
 
