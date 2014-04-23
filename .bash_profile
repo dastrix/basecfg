@@ -20,10 +20,14 @@ alias gch='git checkout '
 alias du1='du -h --max-depth=1 | sort -hr '
 
 # вывод текущей ветки в приглашении bash
-# https://wiki..com/display/SOFTDEV/GIT+workflow#GITworkflow-Началоработы
-source .bash_git
-export PS1='\[\033[01;32m\]\u@`/bin/hostname -f`\[\033[01;34m\] \w $(__git_ps1 "(%s)") \$\[\033[00m\] '
+# http://stackoverflow.com/questions/12870928/mac-bash-git-ps1-command-not-found
+#curl -o ~/.git-prompt.sh \
+#    https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh
 
+if [ -f ~/.git-prompt.sh ]; then
+  source ~/.git-prompt.sh
+  export PS1='[\W]$(__git_ps1 "(%s)"): '
+fi
 
 export LC_ALL=en_US.UTF-8  
 export LANG=en_US.UTF-8
