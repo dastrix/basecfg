@@ -14,9 +14,9 @@ do
 	fi;
 done
 
-# gamification-002 interactivepython-002 calcsing-002
-course_list='lifenutr-002'
-coursera_base_dir=~/downloads/coursera/
+# lifenutr-002 gamification-002 interactivepython-002 calcsing-002
+course_list='humankind-002'
+coursera_base_dir=~/Downloads/video/coursera/
 
 #coursera_user_email=some@email.com
 #coursera_user_password=passwd

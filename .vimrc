@@ -8,6 +8,8 @@ set mouse=a
 set paste
 set ruler
 
+set fileencodings=utf-8,cp1251,koi8-r,latin1
+
 filetype plugin indent on
 syntax on
 
