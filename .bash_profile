@@ -53,4 +53,4 @@ export LANG=en_US.UTF-8
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
-alias getbrcs="grep issue_ | sed 's/.*\(issue_[a-zA-Z0-9]\{1,99\}-[0-9a-zA-Z_-]\{1,99\}\).*/\1/' | sort -u"
+alias getbrcs="grep -o --regexp='[A-Z]\{1,7\}-[0-9]\{2,9\}' | sort -u"
