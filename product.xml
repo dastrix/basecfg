@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2016-06-17 09:53">
+	<shop>
+		<name>Yiwu Ling Ge Ecommerce Co.,Ltd</name>
+		<company>Yiwu Ling Ge Ecommerce Co.,Ltd</company>
+	<currencies>
+		<currency id="RUB" rate="1" />
+		<currency id="EUR" rate="43.8" />
+		<currency id="BYR" rate="0.003672" />
+	</currencies>
+	<categories>
+		<category id="12896121">Beads &amp; Bead Assortments</category>
+		<category id="262595011">Charms</category>
+	</categories>
+		<offers>
+			<offer id="40288a8c4fb70196014f" available="true">
+				<url>http://www.amazon.com/YMXING-Sterling-Silver-Happily-After/dp/B015IDLVMO/ref=sr_1_18?ie=UTF8&amp;qid=1453892189&amp;sr=8-18&amp;keywords=YMXING</url>
+				<price>1393</price>
+				<currencyId>RUB</currencyId>
+				<categoryId>12896121</categoryId>
+				<picture>http://ecx.images-amazon.com/images/I/61wGC7SGAnL._SL1000_.jpg</picture>
+				<name>925 Sterling Silver Happily Ever After with Pink CZ Charm Bead</name>
+				<description>Made of genuine 925 sterling silver,quality assured
+Hand crafted and sparkling pink cz stone engraved
+Size:10*13.85 mm,4.5 mm hole
+Weight:2.20 g
+Quantity: 1pcs, listing only for one bead, Chain not included
+Imagine how beautiful the Queen castle!The S925 sterling silver castle bead is decorated with pink stone,add a nobleness to your bracelet!It works for 3 mm European style bracelets/ snake chains.
+Note:
+1.We promise You will receive the same product as the picture shows.
+2.Please pay attention to the size of the product to make sure it is suitable for your necklace or bracelet.
+3.The color might be slightly different because of the display color of computer monitor.
+4. Make sure shipping information is correct.
+5. If you have any questions about the product or policy, please contact us before bid.</description>
+				<param name="Material">silver</param>
+				<param name="Size">10*13.85 mm</param>
+				<param name="Color">silver</param>
+				<param name="Style">Queen castle</param>
+				<param name="Weight">2.20g</param>
+				<param name="Quantity">1pc</param>
+				<param name="Brand">YMX</param>
+			</offer>
+			<offer id="40288a8c4e3ef3e5014e" available="true">
+				<url>http://www.amazon.com/gp/product/B010RSUIH4</url>
+				<price>767</price>
+				<currencyId>RUB</currencyId>
+				<categoryId>262595011</categoryId>
+				<picture>http://ecx.images-amazon.com/images/I/51tPB7l3PsL._SL1000_.jpg</picture>
+				<name>YMXING Locket of Heart Charm 925 Sterling Silver Bead Red 10.8x22 mm 1pcs</name>
+				<description>Best friends keep each other's secrets safe. The Keep My Secret bead hides away the most important things and only you have the key.	
+1. Feature: sterling silver European heart charms dangle key; The key of heart door. A door is only one Original key; want to open the gate, the key is the key.Do you find your key?The beads fit European beads, European bracelet, big hole Jewelry, Large hole Jewelry beads, Large hole Jewelry bracelet.	
+2. Material:enamel 925 sterling silver	
+3.Size: 10.8*22 mm, hole 4.5 mm	
+4.Weight:1.60 g	
+5. Suitable for: european style bracelet	
+6.Style: trendy	
+7.Shape: heart
+8. Packing: 1 piece with an opp bag</description>
+				<param name="Material">silver</param>
+				<param name="Size">10.8*22 mm</param>
+				<param name="Color">Red</param>
+				<param name="Style">trendy</param>
+				<param name="Weight">1.60g</param>
+				<param name="Quantity">1pc</param>
+				<param name="Brand">YMX</param>
+			</offer>
+		</offers>
+	</shop>
+</yml_catalog>
